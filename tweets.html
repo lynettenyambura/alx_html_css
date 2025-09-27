@@ -1,41 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>My Tweets</title>
-  <link href="base.css" rel="stylesheet">
-<link href="styles.css" rel="stylesheet">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Tweets</title>
+    <link href="base.css" rel="stylesheet" />
+    <link href="styles.css" rel="stylesheet" />
+  </head>
+  <body class="works_on_smartphone">
+    <header>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="tweets.html">Tweets</a></li>
+      </ul>
+    </header>
 
-</head>
-<body>
-  <header>
-    <ul>
-      <li><a href="index.html">Home</a></li>
-      <li><a href="tweets.html">Tweets</a></li>
-    </ul>
-  </header>
+    <main>
+      <article>
+        <h1>My Favorite Tweet</h1>
 
-  <main>
-    <article>
-      <h1>My Favorite Tweet</h1>
+        <!-- Embedded Tweet -->
+        <blockquote class="twitter-tweet">
+          <p lang="en" dir="ltr">
+            Learning never stops — building my first portfolio website with
+            HTML!
+          </p>
+          &mdash; Example Dev (@exampledev)
+          <a href="https://twitter.com/exampledev/status/1234567890"
+            >September, 2025</a
+          >
+        </blockquote>
+        <script
+          async
+          src="https://platform.twitter.com/widgets.js"
+          charset="utf-8"
+        ></script>
+      </article>
 
-      <!-- Embedded Tweet -->
-      <blockquote class="twitter-tweet">
-        <p lang="en" dir="ltr">Learning never stops — building my first portfolio website with HTML!</p>
-        &mdash; Example Dev (@exampledev)
-        <a href="https://twitter.com/exampledev/status/1234567890">September, 2025</a>
-      </blockquote>
-      <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-    </article>
+      <aside>
+        <p>placeholder to add comment thread later</p>
+      </aside>
+    </main>
 
-    <aside>
-      <p>placeholder to add comment thread later</p>
-    </aside>
-  </main>
-
-  <footer>
-    <p>Made by Lynette Nyambura - <a href="https://github.com/lynettenyambura/" target="_blank">here</a></p>
-  </footer>
-</body>
+    <footer>
+      <p>
+        Made by Lynette Nyambura -
+        <a href="https://github.com/lynettenyambura/" target="_blank">here</a>
+      </p>
+    </footer>
+  </body>
 </html>
