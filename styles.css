@@ -66,3 +66,8 @@ footer {
   text-align: center;
   padding: 1rem;
 }
+.logo {
+  font-size: 1.8rem;    
+  color: #fff;      
+  margin-right: 1rem;   
+}
